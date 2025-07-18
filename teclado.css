@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+}
+
+.mobile {
+    display: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+}
+
+.teclado {
+
+    background-color: rgb(184, 184, 184);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.primera-fila {
+    display: flex;
+
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.segunda-fila {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.tercera-fila {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+.cuarta-fila {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: center;
+}
+
+button {
+    font-size: 30px;
+    margin-right: 5px;
+    padding: 10px;
+    border: none;
+    background-color: lightgreen;
+    border-radius: 20px;
+
+}
+
+.btn-cuadrado {
+    height: 60px;
+    width: 60px;
+
+}
+
+.text {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* Este estilo de mostará cuando el ancho de pantalla sea menor a 1100px */
+@media only screen and (max-width: 1100px) {
+
+    /* Oculta el teclado */
+    .teclado {
+        display: none;
+    }
+
+    /* Muestra el aviso */
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    p {
+        color: red;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../10-teclado/teclado.css">
+    <title>Teclado</title>
+</head>
+<body>
+    <!-- Div que contiene todos los elementos del teclado -->
+    <div class="teclado">
+        <!-- Texto superior del teclado -->
+        <div class="text">
+            <p><b>Presiona una letra de tu teclado físico y verás como se refleja en este teclado virtual</b></p>
+        </div>
+        <!-- Primera fila de teclas -->
+        <div class="primera-fila">
+            <button id="ESCAPE">Esc</button>
+            <button class="btn-cuadrado" id="1">1</button>
+            <button class="btn-cuadrado" id="2">2</button>
+            <button class="btn-cuadrado" id="3">3</button>
+            <button class="btn-cuadrado" id="4">4</button>
+            <button class="btn-cuadrado" id="5">5</button>
+            <button class="btn-cuadrado" id="6">6</button>
+            <button class="btn-cuadrado" id="7">7</button>
+            <button class="btn-cuadrado" id="8">8</button>
+            <button class="btn-cuadrado" id="9">9</button>
+            <button class="btn-cuadrado" id="0">0</button>
+            <button class="btn-cuadrado" id="'">'</button>
+            <button class="btn-cuadrado" id="¡">¡</button>
+            <button id="BACKSPACE">BACK</button>
+        </div>
+
+        <!-- Segunda fila de teclas -->
+        <div class="segunda-fila">
+            <button id="TAB">TAB</button>
+            <button class="btn-cuadrado" id="Q">q</button>
+            <button class="btn-cuadrado" id="W">w</button>
+            <button class="btn-cuadrado" id="E">e</button>
+            <button class="btn-cuadrado" id="R">r</button>
+            <button class="btn-cuadrado" id="T">t</button>
+            <button class="btn-cuadrado" id="Y">y</button>
+            <button class="btn-cuadrado" id="U">u</button>
+            <button class="btn-cuadrado" id="I">i</button>
+            <button class="btn-cuadrado" id="O">o</button>
+            <button class="btn-cuadrado" id="P">p</button>
+        </div>
+
+        <!-- Tercera fila de teclas -->
+        <div class="tercera-fila">
+            <button id="CAPSLOCK">MAYUS</button>
+            <button class="btn-cuadrado" id="A">a</button>
+            <button class="btn-cuadrado" id="S">s</button>
+            <button class="btn-cuadrado" id="D">d</button>
+            <button class="btn-cuadrado" id="F">f</button>
+            <button class="btn-cuadrado" id="G">g</button>
+            <button class="btn-cuadrado" id="H">h</button>
+            <button class="btn-cuadrado" id="J">j</button>
+            <button class="btn-cuadrado" id="K">k</button>
+            <button class="btn-cuadrado" id="L">l</button>
+            <button class="btn-cuadrado" id="Ñ">ñ</button>
+            <button id="ENTER">ENTER</button>
+        </div>
+
+        <!-- Cuarta fila de teclas -->
+        <div class="cuarta-fila">
+            <button id="SHIFT">SHIFT</button>
+            <button id="<">< ></button>
+            <button class="btn-cuadrado" id="Z">z</button>
+            <button class="btn-cuadrado" id="X">x</button>
+            <button class="btn-cuadrado" id="C">c</button>
+            <button class="btn-cuadrado" id="V">v</button>
+            <button class="btn-cuadrado" id="B">b</button>
+            <button class="btn-cuadrado" id="N">n</button>
+            <button class="btn-cuadrado" id="M">m</button>
+            <button class="btn-cuadrado" id=",">,</button>
+            <button class="btn-cuadrado" id=".">.</button>
+            <button class="btn-cuadrado" id="-">-</button>
+        </div>
+    </div>
+
+    <!-- Div que contiene los elementos que se mostraran para pantallas más pequeñas.
+    Específicamente bajo un ancho de 1100px -->
+    <div class="mobile">
+        <img src="../10-teclado/img/oops.png">
+        <p>Lo sentimos, esta web solo está disponible para pantallas con un ancho mayor de 1100px.</p>
+    </div>
+    <script src="../10-teclado/teclado.js"></script>
+    
+</body>
+</html>
